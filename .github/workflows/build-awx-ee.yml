@@ -11,6 +11,9 @@ permissions:
 jobs:
   build_and_push_latest:
     runs-on: 'ubuntu-20.04'
+    permissions:
+      contents: read
+      packages: write
     name: Build and push latest tag
     steps:
       - uses: actions/checkout@v2
