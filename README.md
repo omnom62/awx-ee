@@ -1,6 +1,7 @@
 # AWX EE
 
-The default Execution Environment for AWX.
+This ia a custom Execution Environment docker image for AWX.
+It includes standard set of software plus extra dependencies to support HC Vault lookups, Netbox and Nautobot dynamic inventory plugins
 
 ## Build the image locally
 
