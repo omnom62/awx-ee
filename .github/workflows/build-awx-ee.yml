@@ -42,5 +42,5 @@ jobs:
 
       - name: 'Build and push Inventory Image'
         run: |
-          docker build context --tag ghcr.io/omnom62/awx-ee:latest
+          docker build context --label "org.opencontainers.image.source=https://github.com/omnom62/awx-ee" --tag ghcr.io/omnom62/awx-ee:latest
           docker push ghcr.io/omnom62/awx-ee:latest
