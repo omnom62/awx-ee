@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   build_and_push_latest:
-    runs-on: 'base-default-ubuntu-20.04'
+    runs-on: 'ubuntu-20.04'
     name: Build and push latest tag
     steps:
       - uses: actions/checkout@v2
